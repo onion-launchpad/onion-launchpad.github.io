@@ -17,7 +17,7 @@ privacy protections offered by Tor Browser.
 
 That's a chicken-and-egg problem: in order to give users the power to access
 content more safely, the landing pages (or any other portal like a Tor Browser
-download page) cannot offer user all access safeguards without leaking some
+download page) cannot offer all access safeguards without leaking some
 information like the landing page address. So there are inherent trade-offs
 during this "bootstrap phase".
 
