@@ -1,17 +1,17 @@
 # extra dependencies for lektor-envvars
 
-environs==15.0.0 \
-    --hash=sha256:972246695a2ddf8f30205ec9b994ffb2ed6b742e18731b8ed5766e7f67bbb085 \
-    --hash=sha256:fae1b56d88eab5708e5f3944b33375faf719ab8bced3e9dbd6f530dfbbe37dde
+environs==15.0.1 \
+    --hash=sha256:638106bfb5d8c9a13ee51c23a9f2416baf9a748c8e537fec771102927cd02aa8 \
+    --hash=sha256:a6aeb3e18d5649a4e74f62984f0d84ec869269cff588a43685272c72b5b8979b
     # via lektor-envvars
 
-marshmallow==4.2.3 \
-    --hash=sha256:3e3fef6b3603721a25a723b8caedfa488369bddaf9bc03b40b9442c90aebd22b \
-    --hash=sha256:c84fd89817ecea690bde1eb925036070e5e9883148217585adc56d5cfbc082b8
+marshmallow==4.3.0 \
+    --hash=sha256:46c4fe6984707e3cbd485dfebbf0a59874f58d695aad05c1668d15e8c6e13b46 \
+    --hash=sha256:fb43c53b3fe240b8f6af37223d6ef1636f927ad9bea8ab323afad95dff090880
     # via environs
-packaging==26.0 \
-    --hash=sha256:00243ae351a257117b6a241061796684b084ed1c516a08c48a3f7e147a9d80b4 \
-    --hash=sha256:b36f1fef9334a5588b4166f8bcd26a14e521f2b55e6b9de3aaa80d3ff7a37529
+packaging==26.2 \
+    --hash=sha256:5fc45236b9446107ff2415ce77c807cee2862cb6fac22b8a73826d0693b0980e \
+    --hash=sha256:ff452ff5a3e828ce110190feff1178bb1f2ea2281fa2075aadb987c2fb221661
     # via marshmallow
 pyparsing==3.3.2 \
     --hash=sha256:850ba148bd908d7e2411587e247a1e4f0327839c40e2e5e6d05a007ecc69911d \
