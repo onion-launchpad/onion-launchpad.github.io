@@ -6,7 +6,7 @@
 hostname="onion-launchpad"
 
 # Which base box you should use. Leave unconfigured to use kvmx-create instead.
-#basebox="bookworm"
+#basebox="trixie"
 basebox="dev"
 
 # Set this is you want to be able to share a single folder between host and guest.
