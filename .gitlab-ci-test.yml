@@ -4,7 +4,7 @@
 # ".gitlab-ci-test.yml" in the "CI/CD configuration file" field under the
 # "General pipelines" section.
 ---
-image: python:3.11-bullseye
+image: python:3.14-trixie
 
 variables:
   TRANSLATION_BRANCH: onion-launchpad
@@ -49,7 +49,7 @@ build:
 #    it's build scripts aren't available.
 #
 #docs:
-#  image: debian:bookworm
+#  image: debian:stable
 #  stage: build
 #  needs:
 #    - job: build
@@ -68,7 +68,7 @@ build:
 
 pages:
   stage: build
-  image: debian:bookworm
+  image: debian:stable
   needs:
     #- job: docs
     #  artifacts: true
